@@ -77,4 +77,4 @@ const deleteNote = async (req, res) => {
   }
 };
 
-module.exports = { register, deleteNote}
+module.exports = { register, deleteNote, createNote, getTraineeNotes, getManagerNotes };

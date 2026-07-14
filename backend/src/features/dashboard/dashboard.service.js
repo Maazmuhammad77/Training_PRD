@@ -41,8 +41,8 @@ const inDangerTrainees = async (req, res) => {
       }
     }
   }
-  res.status(201).json(danger);
-  return danger;
+  
+  return res.status(201).json(danger);
 };
 
 const activeTrainees = async (req, res) => {

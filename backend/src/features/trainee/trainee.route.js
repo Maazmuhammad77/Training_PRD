@@ -12,7 +12,7 @@ router.get(
 router.post(
   "/trainee/login",
   authMiddleware,
-  traineeController.login
+  traineeController.traineeLogin
 );
 router.patch("/trainee/:id", authMiddleware,
   requireRole("manager"),

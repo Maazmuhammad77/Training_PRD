@@ -1,7 +1,7 @@
 const { getAllTrainees, updateTrainee, pendingTrainees}= require("./trainee.service")
 // get all trainees
 const jwt = require("jsonwebtoken");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const { Trainee } = require("./trainee.model"); 
 
 
@@ -141,4 +141,4 @@ const pending = async (req, res) => {
 }
 
 
-module.exports = { getAll, update, pending, login };
+module.exports = { getAll, update, pending, traineeLogin };
