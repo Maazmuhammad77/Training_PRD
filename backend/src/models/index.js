@@ -9,16 +9,16 @@
 // so associations are always attached.
 // ============================================
 
-const Manager = require("../features/manager/manager.model.js");
-const Invite = require("../features/invite/invite.model.js");
-const Trainee = require("../features/trainee/trainee.model.js");
-const Goal = require("../features/goal/goal.model.js");
-const Project = require("../features/project/project.model.js");
-const Team = require("../features/team/team.model.js");
-const TeamMember = require("../features/team/teamMember.model.js");
-const TeamEvent = require("../features/team/teamEvent.model.js");
-const Announcement = require("../features/announcment/announcement.model.js");
-const ManagerNote = require("../features/managerNote/managernote.model.js");
+const Manager = require("./manager.model.js");
+const Invite = require("./invite.model.js");
+const Trainee = require("./trainee.model.js");
+const Goal = require("./goal.model.js");
+const Project = require("./project.model.js");
+const Team = require("./team.model.js");
+const TeamMember = require("./teamMember.model.js");
+const TeamEvent = require("./teamEvent.model.js");
+const Announcement = require("./announcement.model.js");
+const ManagerNote = require("./managernote.model.js");
 
 // ------------------------------------------------
 // 1. Manager → Invite (1:M)
